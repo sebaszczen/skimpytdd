@@ -25,6 +25,7 @@
     <show-object-properties value="true" />
     <loaded-nodes>
       <connection connection-id="100906cd-cde8-449b-9f6f-d08b1e13e80a">
+        <schema name="nauka" object-types="table" />
         <schema name="skimpytdd" object-types="column, function, table" />
       </connection>
     </loaded-nodes>
@@ -41,7 +42,7 @@
     <last-used-providers />
   </component>
   <component name="DBNavigator.Project.FileConnectionMappingManager">
-    <mapping file-url="file://$PROJECT_DIR$/src/main/resources/data.sql" connection-id="100906cd-cde8-449b-9f6f-d08b1e13e80a" session-id="MAIN" current-schema="skimpytdd" />
+    <mapping file-url="file://$PROJECT_DIR$/src/main/resources/data.sql" connection-id="100906cd-cde8-449b-9f6f-d08b1e13e80a" session-id="MAIN" current-schema="nauka" />
   </component>
   <component name="DBNavigator.Project.MethodExecutionManager">
     <method-browser />

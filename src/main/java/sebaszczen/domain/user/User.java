@@ -11,6 +11,9 @@ public class User {
     @Column(unique = true)
     private String name;
     private String lastName;
+    private String email;
+    private String password;
+    private Sex sex;
 
     public User(String name, String lastName) {
         this.name = name;
@@ -26,5 +29,9 @@ public class User {
     }
 
     public User() {
+    }
+
+    private enum Sex {
+        WOMAN,MAN,NOTSURE
     }
 }

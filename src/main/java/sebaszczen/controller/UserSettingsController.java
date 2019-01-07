@@ -7,7 +7,7 @@ import sebaszczen.service.UserService;
 
 @RestController
 @RequestMapping("/settings")
-public class UserController {
+class UserSettingsController {
 
     @Autowired
     private UserService userService;
